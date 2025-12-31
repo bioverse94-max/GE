@@ -33,7 +33,7 @@ npm install @11labs/client
 
 ## Step 3: Configure Environment Variables
 
-1. Create a file named `.env.local` in the `/frontend` folder
+1. Create a file named `.env` in the `/frontend` folder
 2. Add your credentials:
 
 ```env
@@ -78,9 +78,9 @@ yarn start
 ## Troubleshooting
 
 ### "Demo Mode" Warning Showing
-- ✅ Check that `.env.local` file exists in `/frontend` folder
+- ✅ Check that `.env` file exists in `/frontend` folder
 - ✅ Verify API key and Agent ID are correct
-- ✅ Restart the development server after adding .env.local
+- ✅ Restart the development server after adding .env
 
 ### "Failed to start interview" Error
 - ✅ Verify API key starts with `sk_`
@@ -116,7 +116,7 @@ yarn start
 
 ```
 frontend/
-├── .env.local                           # ← Add your credentials here
+├── .env                                 # ← Add your credentials here
 ├── public/
 │   └── index.html                       # ← Cleaned (no Emergent branding)
 ├── src/
@@ -131,7 +131,7 @@ frontend/
 
 ## Next Steps
 
-1. ✅ Configure credentials in `.env.local`
+1. ✅ Configure credentials in `.env`
 2. ✅ Install ElevenLabs SDK: `yarn add @11labs/client`
 3. ✅ Restart development server
 4. ✅ Test the interview

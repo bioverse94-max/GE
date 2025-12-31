@@ -19,7 +19,7 @@ class ElevenLabsService {
     try {
       if (!this.apiKey || !this.agentId) {
         throw new Error(
-          'Missing ElevenLabs credentials. Please check your .env.local file.'
+          'Missing ElevenLabs credentials. Please check your .env file.'
         );
       }
 

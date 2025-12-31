@@ -166,7 +166,7 @@ const InterviewCoach = () => {
           <Alert className="config-warning">
             <AlertCircle className="h-4 w-4" />
             <AlertDescription>
-              <strong>Demo Mode:</strong> Configure ElevenLabs in .env.local to connect your agent.
+              <strong>Demo Mode:</strong> Configure ElevenLabs in .env to connect your agent.
             </AlertDescription>
           </Alert>
         )}

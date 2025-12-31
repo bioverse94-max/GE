@@ -20,7 +20,7 @@ yarn install
 
 ### Environment Setup
 
-1. Create a `.env.local` file in the `frontend/` directory
+1. Create a `.env` file in the `frontend/` directory
 2. Add your ElevenLabs credentials:
 
 ```env

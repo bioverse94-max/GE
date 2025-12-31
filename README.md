@@ -34,7 +34,7 @@ A React-based frontend application that connects directly to ElevenLabs Conversa
    yarn install
    ```
 
-4. Create `.env.local` file in the `frontend/` directory:
+4. Create `.env` file in the `frontend/` directory:
    ```env
    REACT_APP_ELEVENLABS_API_KEY=sk_your_api_key_here
    REACT_APP_ELEVENLABS_AGENT_ID=your_agent_id_here
@@ -88,7 +88,7 @@ A React-based frontend application that connects directly to ElevenLabs Conversa
 
 ## Environment Variables
 
-All environment variables are configured in `frontend/.env.local`:
+All environment variables are configured in `frontend/.env`:
 
 - `REACT_APP_ELEVENLABS_API_KEY` - Your ElevenLabs API key
 - `REACT_APP_ELEVENLABS_AGENT_ID` - Your agent ID

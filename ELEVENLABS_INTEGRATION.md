@@ -85,7 +85,7 @@ The avatar shows visual feedback based on agent status:
 
 ## Environment Variables
 
-Required in `frontend/.env.local`:
+Required in `frontend/.env`:
 
 ```env
 REACT_APP_ELEVENLABS_API_KEY=sk_your_api_key_here
@@ -122,7 +122,7 @@ REACT_APP_ELEVENLABS_BRANCH_ID=your_branch_id_here  # Optional
 ## Testing
 
 Test the integration by:
-1. Configure `.env.local` with your ElevenLabs credentials
+1. Configure `.env` with your ElevenLabs credentials
 2. Start the development server: `yarn start`
 3. Open the app at `http://localhost:3000`
 4. Click "Start Interview Call"
@@ -135,9 +135,9 @@ Test the integration by:
 ## Troubleshooting
 
 ### "Demo Mode" Warning Showing
-- ✅ Check that `.env.local` file exists in `/frontend` folder
+- ✅ Check that `.env` file exists in `/frontend` folder
 - ✅ Verify API key and Agent ID are correct
-- ✅ Restart the development server after adding .env.local
+- ✅ Restart the development server after adding .env
 
 ### "Failed to start interview" Error
 - ✅ Verify API key starts with `sk_`
@@ -160,7 +160,7 @@ Test the integration by:
 
 ```
 frontend/
-├── .env.local                    # ← Your ElevenLabs credentials
+├── .env                          # ← Your ElevenLabs credentials
 ├── src/
 │   ├── pages/
 │   │   └── InterviewCoach.jsx   # ← Main component
