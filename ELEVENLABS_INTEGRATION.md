@@ -123,7 +123,7 @@ REACT_APP_ELEVENLABS_BRANCH_ID=your_branch_id_here  # Optional
 
 Test the integration by:
 1. Configure `.env` with your ElevenLabs credentials
-2. Start the development server: `yarn start`
+2. Start the development server: `yarn dev`
 3. Open the app at `http://localhost:3000`
 4. Click "Start Interview Call"
 5. Verify connection to ElevenLabs agent

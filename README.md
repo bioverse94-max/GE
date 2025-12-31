@@ -43,11 +43,11 @@ A React-based frontend application that connects directly to ElevenLabs Conversa
 
 5. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
    or
    ```bash
-   yarn start
+   yarn dev
    ```
 
 6. Open [http://localhost:3000](http://localhost:3000) in your browser

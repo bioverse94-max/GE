@@ -65,7 +65,7 @@ When you copy the code locally, the cleaned version will have:
 ```bash
 # Stop the current server (Ctrl+C)
 # Then restart:
-yarn start
+yarn dev
 ```
 
 ## Step 6: Test the Integration

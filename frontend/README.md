@@ -40,11 +40,11 @@ REACT_APP_ELEVENLABS_BRANCH_ID=your_branch_id_here
 To start the frontend development server:
 
 ```bash
-npm start
+npm run dev
 ```
 or
 ```bash
-yarn start
+yarn dev
 ```
 
 The application will open in your browser at `http://localhost:3000` (or the next available port).
