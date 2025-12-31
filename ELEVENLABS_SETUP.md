@@ -33,29 +33,22 @@ npm install @11labs/client
 
 ## Step 3: Configure Environment Variables
 
-### When Copying Locally:
-
 1. Create a file named `.env.local` in the `/frontend` folder
 2. Add your credentials:
 
 ```env
-# Backend URL
-REACT_APP_BACKEND_URL=http://localhost:8001
-
 # ElevenLabs Configuration
+# Get your API key from: https://elevenlabs.io/app/settings/api-keys
 REACT_APP_ELEVENLABS_API_KEY=sk_your_actual_api_key_here
+
+# Get your Agent ID from: https://elevenlabs.io/app/conversational-ai
 REACT_APP_ELEVENLABS_AGENT_ID=your_actual_agent_id_here
+
+# Optional: Branch ID if using branches
 REACT_APP_ELEVENLABS_BRANCH_ID=your_branch_id_here_if_needed
 ```
 
-### On Emergent Platform:
-
-Edit `/app/frontend/.env` and add:
-```env
-REACT_APP_ELEVENLABS_API_KEY=sk_your_actual_api_key_here
-REACT_APP_ELEVENLABS_AGENT_ID=your_actual_agent_id_here
-REACT_APP_ELEVENLABS_BRANCH_ID=your_branch_id_here_if_needed
-```
+**Note:** No backend server is required. The app connects directly to the ElevenLabs agent which has a built-in database.
 
 ## Step 4: Remove Emergent Branding (When Running Locally)
 
